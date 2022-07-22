@@ -1,0 +1,131 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <style>
+      @import url("https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,700&display=swap");
+      * {
+        font-family: "Kanit", sans-serif;
+      }
+      body {
+        background-color: rgb(43, 43, 43);
+        margin: 0;
+      }
+      span {
+        color: rgb(0, 202, 185);
+      }
+      .Header {
+        position: static;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        margin: 0;
+        background-color: white;
+        font-size: 1.2rem;
+      }
+
+      .Redes {
+        display: flex;
+        justify-content: right;
+        list-style-type: none;
+      }
+      .Redes > li {
+        padding-left: 1rem;
+      }
+
+      .logos {
+        height: 1.5rem;
+      }
+
+      .Hero {
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+        margin: 5rem 5rem;
+        padding: 5em 5em;
+        background-color: rgb(255, 255, 255);
+        border-radius: 1rem;
+        
+      }
+      .Hero > img {
+        height: 12rem;
+        border-radius: 50%;
+        border: 12px inset white;
+
+      }
+      
+      .aboutme{
+        text-align: center;
+      }
+
+      .skills{
+        text-align: center;
+      }
+      .tecnos{
+        list-style-type: none;
+        display: flex;
+        justify-content: space-around;
+        padding: 0;
+        margin: 0%;
+        
+
+      }
+      .tecno{
+        width: 100%;
+        display: flex;
+        align-items: center;
+        height: 8em;
+        list-style-type: none;
+
+      }
+
+    </style>
+  </head>
+  <body>
+    <div class="Header">
+      <ul class="Redes">
+        <li>
+          <a href=https://www.codewars.com/users/Gonzaloemm81 ><img class="logos" src="Images/codewars-svgrepo-com.svg" alt="" /></a>
+        </li>
+        <li>
+          <a href=https://www.linkedin.com/in/gonzalo-ramirez-code-student/ >
+            <img class="logos" src="Images/linkedin-svgrepo-com.svg" alt=""
+          /></a>
+        </li>
+        <li><a href=https://github.com/Gonzaloemm81/CV >
+          <img class="logos" src="Images/github-svgrepo-com.svg" alt="" /></a>
+        </li>
+      </ul>
+    </div>
+
+    <div class="Hero">
+      <div>
+        <h2>¡HOLA!</h2>
+        <h1>SOY <span>GONZALO</span> RAMÍREZ.</h1>
+        <p>Estudio <span>Desarrollo Web</span> y de Aplicaciones</p>
+      </div>
+      <img src="Images/Gonza Perfil.jfif" alt="" />
+    </div>
+
+    <div class="Hero">
+      <div class="aboutme">
+        <h2>Acerca de mi:</h2>
+        <p>Soy un joven entusiasta del <span>diseño</span> y la <span>programación</span>.<br> Soy bueno y claro comunicándome y trabajando en equipo.<br> Busco encontrar un ambiente propicio para aprender <br>y seguir desarrollando mis habilidades como <span>futuro desarrollador.</span>   </p>
+      </div>
+    </div>
+    <div class="Hero">
+      <div class="skills">
+        <h2>Tecnologías:</h2> 
+        <ul class="tecnos">
+          <li><img class="tecno" src="Images/html-5-logo-svgrepo-com.svg" alt=""></li>
+          <li><img class="tecno" src="Images/css-svgrepo-com.svg" alt=""></li>
+          <li><img class="tecno" src="Images/python-svgrepo-com.svg" alt=""></li>
+        </ul>
+      </div>
+    </div>
+  </body>
+</html>
